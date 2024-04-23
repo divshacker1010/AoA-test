@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/divshacker1010/helm-charts-nginx.git
-    path: stable
+    path: ./stable/index.yaml
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
