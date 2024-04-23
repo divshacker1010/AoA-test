@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: kubeshark-4
-  namespace: argocd-old
+  # namespace: argocd-old
 spec:
   project: default
   source:
