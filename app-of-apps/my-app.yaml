@@ -2,10 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: sample-node-app
-  finalizers:
-    # The default behaviour is foreground cascading deletion
-    - null
-  #namespace: argocd-old
+
 spec:
   project: default
   source:
