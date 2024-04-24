@@ -4,7 +4,7 @@ metadata:
   name: sample-node-app
   finalizers:
     # The default behaviour is foreground cascading deletion
-    - resources-finalizer.argocd.argoproj.io
+    - null
   #namespace: argocd-old
 spec:
   project: default
