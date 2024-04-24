@@ -5,7 +5,7 @@ metadata:
   # namespace: argocd-old
   finalizers:
     # The default behaviour is foreground cascading deletion
-    - resources-finalizer.argocd.argoproj.io
+    - null
 spec:
   project: default
   source:
