@@ -2,6 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: sample-node-app
+  finalizers: null
 
 spec:
   project: default
