@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://charts.deliveryhero.io/
+    repoURL: https://artifacthub.io/packages/helm/deliveryhero/aws-s3-proxy
     # path: <HELM_CHART_PATH_IN_REPO>
     targetRevision: "2.0"
   destination:
