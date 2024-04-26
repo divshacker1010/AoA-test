@@ -1,4 +1,4 @@
-apiVersion: argoproj.io/vlalphal
+apiVersion: argoproj.io/v1alpha1
 kind: Application 
 metadata:
   name: bitnami-helm-nginx-app 
@@ -11,7 +11,7 @@ spec:
     #path: ''
     repoURL: 'https://charts.bitnami.com/bitnami'
     targetRevision: '16.0.6'
-    chart: bitnami/nginx 
+    chart: nginx 
     helm:
       parameters:
         - name: service.type
