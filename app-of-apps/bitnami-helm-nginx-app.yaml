@@ -1,14 +1,14 @@
-apiVersion: argoproj.1o/vlalphal
+apiVersion: argoproj.io/vlalphal
 kind: Application 
 metadata:
   name: bitnami-helm-nginx-app 
 spec:
   destination:
-    name: ''
+    #name: ''
     namespace: nginx 
     server: 'https://kubernetes.default.svc'
   source:
-    path: ''
+    #path: ''
     repoURL: 'https://charts.bitnami.com/bitnami'
     targetRevision: '16.0.6'
     chart: nginx 
