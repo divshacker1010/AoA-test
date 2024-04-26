@@ -1,0 +1,22 @@
+apiVersion: argoproj.1o/vlalphal
+kind: Application 
+metadata:
+  name: bitnami-helm-nginx-app 
+spec:
+  destination:
+    #name:
+    namespace: nginx 
+    server: 'https://kubernetes.default.svc'
+  source:
+    #path: **
+    repoURL: 'https://charts.bitnami.com/bitnami'
+    targetRevision: 12.0.3
+    chart: nginx 
+    helm:
+      parameters:
+        - name: service.type
+          value: NodePort
+  project: default 
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
