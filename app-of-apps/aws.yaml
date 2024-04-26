@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://charts.deliveryhero.io/
     # path: <HELM_CHART_PATH_IN_REPO>
-    targetRevision: 2.0
+    targetRevision: "2.0"
   destination:
     server: https://kubernetes.default.svc
     namespace: aws
