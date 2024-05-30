@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     # name: ''
-    namespace: argo-beta
+    namespace: argo-new
     server: 'https://kubernetes.default.svc'
   source:
     path: argo-cd
