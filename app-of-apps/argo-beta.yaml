@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     # name: ''
-    namespace: argocd-new
+    namespace: argocd-old-1
     server: 'https://kubernetes.default.svc'
   source:
     path: argo-cd
